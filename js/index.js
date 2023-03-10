@@ -26,32 +26,32 @@ $(document).ready(function () {
 
   //커리큘럼박스
 
-  $(".levelButton1").click(function(){
+  $(".num0").hover(function(){
     $(".curriEx #tab6").hide();
     $(".curriEx #tab7").hide();
     $(".curriEx #tab8").hide();
-    $(".curriEx #tab5").show("slow");
+    $(".curriEx #tab5").stop().show("slow");
   });
 
-  $(".levelButton2").click(function(){
+  $(".num1").hover(function(){
     $(".curriEx #tab5").hide();
     $(".curriEx #tab7").hide();
     $(".curriEx #tab8").hide();
-    $(".curriEx #tab6").show("slow");
+    $(".curriEx #tab6").stop().show("slow");
   });
   
-  $(".levelButton3").click(function(){
+  $(".num2").hover(function(){
     $(".curriEx #tab5").hide();
     $(".curriEx #tab6").hide();
     $(".curriEx #tab8").hide();
-    $(".curriEx #tab7").show("slow");
+    $(".curriEx #tab7").stop().show("slow");
   });
 
-  $(".levelButton4").click(function(){
+  $(".num3").hover(function(){
     $(".curriEx #tab5").hide();
     $(".curriEx #tab6").hide();
     $(".curriEx #tab7").hide();
-    $(".curriEx #tab8").show("slow");
+    $(".curriEx #tab8").stop().show("slow");
   });
 
 });
