@@ -24,5 +24,34 @@ $(document).ready(function () {
 
   });
 
+  //커리큘럼박스
+
+  $(".levelButton1").click(function(){
+    $(".curriEx #tab6").hide();
+    $(".curriEx #tab7").hide();
+    $(".curriEx #tab8").hide();
+    $(".curriEx #tab5").show("slow");
+  });
+
+  $(".levelButton2").click(function(){
+    $(".curriEx #tab5").hide();
+    $(".curriEx #tab7").hide();
+    $(".curriEx #tab8").hide();
+    $(".curriEx #tab6").show("slow");
+  });
   
+  $(".levelButton3").click(function(){
+    $(".curriEx #tab5").hide();
+    $(".curriEx #tab6").hide();
+    $(".curriEx #tab8").hide();
+    $(".curriEx #tab7").show("slow");
+  });
+
+  $(".levelButton4").click(function(){
+    $(".curriEx #tab5").hide();
+    $(".curriEx #tab6").hide();
+    $(".curriEx #tab7").hide();
+    $(".curriEx #tab8").show("slow");
+  });
+
 });
